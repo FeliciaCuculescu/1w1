@@ -47,18 +47,27 @@ nav a {
   background-color: rgb(100, 126, 182);
 }
 
-#galerie {
-  background-color: rgb(207, 158, 97);
+#tableau {
+  background-color: rgb(119, 204, 164);
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #evenements {
-  background-color: rgb(136, 211, 186);
+  background-color: rgb(177, 228, 243);
 }
 
-#videos {
-  background-color: rgb(183, 135, 222);
+#personnages {
+  background-color: rgb(240, 184, 82);
 }
 
 #footer {
-  background-color: rgb(135, 222, 135);
+  background-color: rgb(0, 0, 0);
+  color: #bbb;
 }
